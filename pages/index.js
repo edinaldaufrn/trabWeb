@@ -1,7 +1,10 @@
+import Link from 'next/link'
+
+
 export default function Principal(){
  return(
- <div>
-    <h1>Minha Primeira Página Next.js</h1>
-  </div>
+<div>
+  <Link href="/maria"><a>Maria</a></Link>
+</div>
  )
 }
